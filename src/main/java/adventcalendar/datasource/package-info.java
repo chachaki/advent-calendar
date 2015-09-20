@@ -1,4 +1,4 @@
 /**
  * DataAccess/Infrastructure層です。
  */
-package advnetcalendar.datasource;
+package adventcalendar.datasource;

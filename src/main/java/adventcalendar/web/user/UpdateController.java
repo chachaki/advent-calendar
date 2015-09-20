@@ -1,9 +1,9 @@
-package advnetcalendar.web.user;
+package adventcalendar.web.user;
 
-import advnetcalendar.model.user.User;
-import advnetcalendar.model.user.UserId;
-import advnetcalendar.model.user.validation.OnUpdate;
-import advnetcalendar.service.UserService;
+import adventcalendar.model.user.User;
+import adventcalendar.model.user.UserId;
+import adventcalendar.model.user.validation.OnUpdate;
+import adventcalendar.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

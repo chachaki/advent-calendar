@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="advnetcalendar.datasource.user.UserMapper">
-    <resultMap id="user" type="advnetcalendar.model.user.User">
+<mapper namespace="adventcalendar.datasource.user.UserMapper">
+    <resultMap id="user" type="adventcalendar.model.user.User">
         <id property="id.value" column="user_id"/>
         <result property="name.value" column="name"/>
         <result property="password.value" column="password"/>
         <result property="birthDate.value" column="birth_date"/>
         <result property="phoneNumber.value" column="phone_number"/>
     </resultMap>
-    <resultMap id="userSummary" type="advnetcalendar.model.user.UserSummary">
+    <resultMap id="userSummary" type="adventcalendar.model.user.UserSummary">
         <id property="id.value" column="user_id"/>
         <result property="name.value" column="name"/>
         <result property="password.value" column="password"/>

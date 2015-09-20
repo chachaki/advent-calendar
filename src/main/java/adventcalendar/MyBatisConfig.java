@@ -1,7 +1,7 @@
-package advnetcalendar;
+package adventcalendar;
 
-import advnetcalendar.datasource.infrastructure.mybatis.LocalDateHandler;
-import advnetcalendar.datasource.infrastructure.mybatis.LocalDateTimeHandler;
+import adventcalendar.datasource.infrastructure.mybatis.LocalDateHandler;
+import adventcalendar.datasource.infrastructure.mybatis.LocalDateTimeHandler;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.type.TypeHandler;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -16,7 +16,7 @@ import javax.sql.DataSource;
  * Created by haljik on 15/06/04.
  */
 @Configuration
-@MapperScan(basePackages = "advnetcalendar.datasource")
+@MapperScan(basePackages = "adventcalendar.datasource")
 public class MyBatisConfig {
 
     @Bean

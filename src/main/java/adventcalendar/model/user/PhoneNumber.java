@@ -1,7 +1,7 @@
-package advnetcalendar.model.user;
+package adventcalendar.model.user;
 
-import advnetcalendar.model.user.validation.OnRegister;
-import advnetcalendar.model.user.validation.OnUpdate;
+import adventcalendar.model.user.validation.OnRegister;
+import adventcalendar.model.user.validation.OnUpdate;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.hibernate.validator.constraints.NotBlank;

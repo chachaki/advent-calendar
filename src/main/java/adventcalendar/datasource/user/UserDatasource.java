@@ -1,6 +1,6 @@
-package advnetcalendar.datasource.user;
+package adventcalendar.datasource.user;
 
-import advnetcalendar.model.user.*;
+import adventcalendar.model.user.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package advnetcalendar.model.user;
+package adventcalendar.model.user;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;

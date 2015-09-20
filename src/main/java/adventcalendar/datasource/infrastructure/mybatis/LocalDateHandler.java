@@ -1,4 +1,4 @@
-package advnetcalendar.datasource.infrastructure.mybatis;
+package adventcalendar.datasource.infrastructure.mybatis;
 
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;

@@ -1,13 +1,13 @@
-package advnetcalendar.service.user
+package adventcalendar.service.user
 
-import advnetcalendar.TestConfiguration
-import advnetcalendar.model.user.BirthDate
-import advnetcalendar.model.user.Name
-import advnetcalendar.model.user.Password
-import advnetcalendar.model.user.PhoneNumber
-import advnetcalendar.model.user.User
-import advnetcalendar.model.user.UserId
-import advnetcalendar.service.UserService
+import adventcalendar.TestConfiguration
+import adventcalendar.model.user.BirthDate
+import adventcalendar.model.user.Name
+import adventcalendar.model.user.Password
+import adventcalendar.model.user.PhoneNumber
+import adventcalendar.model.user.User
+import adventcalendar.model.user.UserId
+import adventcalendar.service.UserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.SpringApplicationContextLoader
 import org.springframework.jdbc.core.JdbcTemplate
@@ -63,7 +63,7 @@ class UserServiceSpec extends Specification {
     def "ユーザーを登録できること"() {
         given:
         def user = new User()
-        def id = new UserId("hogefuga@advnetcalendar.com")
+        def id = new UserId("hogefuga@adventcalendar.com")
         def name = new Name()
         def birthDate = new BirthDate()
         def phoneNumber = new PhoneNumber()
@@ -80,7 +80,7 @@ class UserServiceSpec extends Specification {
         service.register(user)
         then:
         def actual = service.findById(id).get()
-        actual.id.value == "hogefuga@advnetcalendar.com"
+        actual.id.value == "hogefuga@adventcalendar.com"
         actual.name.value == "Hoge Fuga"
         actual.birthDate.value.isEqual(LocalDate.of(1989, 11, 21)) == true
         actual.phoneNumber.value == "0120-888-888"

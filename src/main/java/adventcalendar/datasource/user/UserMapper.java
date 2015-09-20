@@ -1,8 +1,8 @@
-package advnetcalendar.datasource.user;
+package adventcalendar.datasource.user;
 
-import advnetcalendar.model.user.User;
-import advnetcalendar.model.user.UserId;
-import advnetcalendar.model.user.UserSummary;
+import adventcalendar.model.user.User;
+import adventcalendar.model.user.UserId;
+import adventcalendar.model.user.UserSummary;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

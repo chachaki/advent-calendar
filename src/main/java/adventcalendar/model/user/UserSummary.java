@@ -1,4 +1,4 @@
-package advnetcalendar.model.user;
+package adventcalendar.model.user;
 
 public class UserSummary {
     UserId id;

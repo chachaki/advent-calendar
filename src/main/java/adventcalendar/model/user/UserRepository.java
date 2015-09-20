@@ -1,4 +1,4 @@
-package advnetcalendar.model.user;
+package adventcalendar.model.user;
 
 import java.util.Optional;
 

@@ -39,7 +39,7 @@ repositories {
 }
 
 jar {
-    baseName = 'isolating-the-domain'
+    baseName = 'advent-calendar'
     version = '0.1.0'
 }
 

@@ -63,7 +63,7 @@ class UserServiceSpec extends Specification {
     def "ユーザーを登録できること"() {
         given:
         def user = new User()
-        def id = new UserId("hogefuga@adventcalendar.com")
+        def id = new UserId("hogefuga@example.com")
         def name = new Name()
         def birthDate = new BirthDate()
         def phoneNumber = new PhoneNumber()
@@ -80,7 +80,7 @@ class UserServiceSpec extends Specification {
         service.register(user)
         then:
         def actual = service.findById(id).get()
-        actual.id.value == "hogefuga@adventcalendar.com"
+        actual.id.value == "hogefuga@example.com"
         actual.name.value == "Hoge Fuga"
         actual.birthDate.value.isEqual(LocalDate.of(1989, 11, 21)) == true
         actual.phoneNumber.value == "0120-888-888"

@@ -1,5 +1,7 @@
 description 'ドメイン駆動設計によるアプリケーション開発のテンプレート'
 
+defaultTasks 'clean', 'build'
+
 buildscript {
     ext {
         springBootVersion = '1.2.4.RELEASE'

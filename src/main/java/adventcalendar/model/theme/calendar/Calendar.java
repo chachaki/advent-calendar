@@ -1,8 +1,12 @@
 package adventcalendar.model.theme.calendar;
 
+
+import adventcalendar.model.theme.Period.Period;
+
 /**
- * Created by sasakimasayuki on 15/09/21.
+ * Created by chachaki on 15/09/21.
  */
 public class Calendar {
-    
+    Period period;
+    Tickets tickets;
 }

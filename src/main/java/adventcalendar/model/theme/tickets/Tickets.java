@@ -1,6 +1,4 @@
-package adventcalendar.model.theme.calendar;
-
-import adventcalendar.model.theme.member.join.ScheduledDate;
+package adventcalendar.model.theme.tickets;
 
 import java.util.List;
 

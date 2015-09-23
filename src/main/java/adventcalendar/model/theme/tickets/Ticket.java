@@ -1,4 +1,4 @@
-package adventcalendar.model.theme.calendar;
+package adventcalendar.model.theme.tickets;
 
 import adventcalendar.model.theme.member.Member;
 import adventcalendar.model.theme.member.join.ScheduledDate;

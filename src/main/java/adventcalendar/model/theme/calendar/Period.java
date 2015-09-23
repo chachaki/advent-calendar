@@ -1,4 +1,4 @@
-package adventcalendar.model.theme.Period;
+package adventcalendar.model.theme.calendar;
 
 /**
  * Created by chachaki on 15/09/22.
